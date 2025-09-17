@@ -36,7 +36,7 @@ class Students extends Controller {
         $this->StudentModel->insert_data($data);
 
         // Redirect to students list
-        echo "<script>alert('Added Successfully'); window.location='/students/index';</script>"
+        echo "<script>alert('Added Successfully'); window.location='/students/index';</script>";
        // header("Location: /students/index");
        // exit;
     }
