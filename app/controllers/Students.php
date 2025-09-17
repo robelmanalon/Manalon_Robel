@@ -33,7 +33,7 @@ class Students extends Controller {
             'email'      => $this->io->post('email')
         ];
 
-        $this->StudentModel->insert($data);
+        $this->StudentModel->insert_data($data);
 
         // Redirect to students list
         header("Location: /students/index");
